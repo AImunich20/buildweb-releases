@@ -1,27 +1,25 @@
 <div align="center">
 
-<img src="images/icon.png" width="112" alt="BuildWeb">
+<img src="images/banner.png" alt="BuildWeb" width="100%">
 
-# BuildWeb — ดาวน์โหลด
+# ดาวน์โหลด BuildWeb
 
-สร้างเว็บไซต์แบบลากวาง โฮสต์จาก Mac ของคุณ และส่งออกเป็น HTML/CSS/JS
-
-<a href="https://github.com/AImunich20/buildweb-releases/releases/latest/download/BuildWeb.dmg"><img alt="Download BuildWeb for macOS" src="https://img.shields.io/badge/ดาวน์โหลด_BuildWeb-macOS_(Apple_Silicon)-7c5cff?style=for-the-badge&logo=apple&logoColor=white" height="44"></a>
-
-<a href="https://github.com/AImunich20/buildweb-releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/AImunich20/buildweb-releases?label=เวอร์ชันล่าสุด&color=0b0b0e"></a>
-<img alt="macOS 12+" src="https://img.shields.io/badge/macOS-12%2B-0b0b0e?logo=apple">
-
-<br><br><img src="images/editor.png" width="860" alt="BuildWeb">
+<a href="https://github.com/AImunich20/buildweb-releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/AImunich20/buildweb-releases?label=latest&style=flat-square&color=7c5cff"></a>
 
 </div>
 
-## ติดตั้ง
-1. ดาวน์โหลด **BuildWeb.dmg** จากปุ่มด้านบน (สำหรับ Mac ชิป Apple M1 ขึ้นไป, macOS 12+)
-2. เปิด `.dmg` แล้วลาก **BuildWeb** ไปไว้ใน **Applications**
-3. เปิดครั้งแรก: ถ้า macOS เตือนว่าตรวจสอบผู้พัฒนาไม่ได้ ให้ไปที่ **System Settings › Privacy & Security › Open Anyway**
-   หรือรันใน Terminal: `xattr -dr com.apple.quarantine /Applications/BuildWeb.app`
+| ระบบ | ดาวน์โหลด |
+|---|---|
+| **macOS** (Apple M1–M4) | <a href="https://github.com/AImunich20/buildweb-releases/releases/latest/download/BuildWeb.dmg"><img alt="macOS" src="https://img.shields.io/badge/Download-.dmg-0b0b0e?style=for-the-badge&logo=apple&logoColor=white"></a> |
+| **macOS** (Intel) | <a href="https://github.com/AImunich20/buildweb-releases/releases/latest/download/BuildWeb-Intel.dmg"><img alt="macOS Intel" src="https://img.shields.io/badge/Download-.dmg_Intel-0b0b0e?style=for-the-badge&logo=apple&logoColor=white"></a> |
+| **Windows** 10/11 (64-bit) | <a href="https://github.com/AImunich20/buildweb-releases/releases/latest/download/BuildWeb-Setup.exe"><img alt="Windows" src="https://img.shields.io/badge/Download-Setup.exe-0078d4?style=for-the-badge&logo=windows&logoColor=white"></a> |
+| **Linux** (x86_64) | <a href="https://github.com/AImunich20/buildweb-releases/releases/latest/download/BuildWeb.AppImage"><img alt="AppImage" src="https://img.shields.io/badge/Download-AppImage-e95420?style=for-the-badge&logo=linux&logoColor=white"></a> <a href="https://github.com/AImunich20/buildweb-releases/releases/latest/download/BuildWeb.deb"><img alt=".deb" src="https://img.shields.io/badge/.deb-e95420?style=for-the-badge&logo=ubuntu&logoColor=white"></a> |
 
-## อัพเดท
-ไม่ต้องดาวน์โหลดใหม่ BuildWeb อัพเดทตัวเองอัตโนมัติจาก repo นี้ ข้อมูลเว็บของคุณไม่หาย
+**ติดตั้งครั้งแรก**
+- **macOS:** เปิด `.dmg` แล้วลาก BuildWeb ไปไว้ใน Applications · ถ้าเปิดไม่ได้ ไปที่ System Settings › Privacy & Security › **Open Anyway**
+- **Windows:** ถ้า SmartScreen เตือน ให้กด **More info › Run anyway**
+- **Linux:** `chmod +x BuildWeb.AppImage && ./BuildWeb.AppImage` หรือ `sudo apt install ./BuildWeb.deb`
 
-ดูรายละเอียดฟีเจอร์และโค้ดได้ที่ **[AImunich20/BuildWeb](https://github.com/AImunich20/BuildWeb)** · ประวัติเวอร์ชันอยู่ที่ [Releases](https://github.com/AImunich20/buildweb-releases/releases)
+**อัพเดทอัตโนมัติ:** แอปตรวจและติดตั้งเวอร์ชันใหม่จาก repo นี้เอง ข้อมูลเว็บของคุณไม่หาย
+
+ฟีเจอร์และโค้ด: **[AImunich20/BuildWeb](https://github.com/AImunich20/BuildWeb)** · ประวัติเวอร์ชัน: [Releases](https://github.com/AImunich20/buildweb-releases/releases)
